@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/chat_other_message" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/surface_stroke" />
+            <corners
+                android:topLeftRadius="22dp"
+                android:topRightRadius="22dp"
+                android:bottomLeftRadius="8dp"
+                android:bottomRightRadius="22dp" />
+        </shape>
+    </item>
+    <item
+        android:width="10dp"
+        android:height="10dp"
+        android:gravity="bottom|start">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/chat_other_message" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/surface_stroke" />
+            <corners android:bottomLeftRadius="4dp" />
+        </shape>
+    </item>
+</layer-list>

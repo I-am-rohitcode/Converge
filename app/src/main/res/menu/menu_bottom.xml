@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_chats" android:title="Chats" android:icon="@drawable/chat_24px"/>
+<!--    <item android:id="@+id/nav_updates" android:title="Updates" android:icon="@drawable/ic_update"/>-->
+<!--    <item android:id="@+id/nav_communities" android:title="Communities" android:icon="@drawable/ic_group"/>-->
+    <item android:id="@+id/nav_calls" android:title="Calls" android:icon="@drawable/call_24px"/>
+</menu>

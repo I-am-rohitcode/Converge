@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Brand Colors -->
+    <color name="primary">#655AE7</color>
+    <color name="primary_variant">#574FD6</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Secondary / Accent -->
+    <color name="secondary">#F1547F</color>
+    <color name="secondary_variant">#D9436C</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Interactive Elements -->
+    <color name="accent_blue">#69A0F6</color>
+    <color name="accent_orange">#FEB551</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F5F9FF</color>
+    <color name="background_top">#FCFBFF</color>
+    <color name="background_bottom">#EEF2FF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="surface_muted">#F3F1FF</color>
+    <color name="surface_stroke">#DDD9FF</color>
+    <color name="divider">#E4E7F0</color>
+
+    <!-- Chat UI -->
+    <color name="chat_my_message">#655AE7</color>
+    <color name="chat_other_message">#EAEAFD</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_inverse">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+
+    <color name="black_10">#1A1A1A1A</color>
+    <color name="black_16">#291A1A1A</color>
+    <color name="white_70">#B3FFFFFF</color>
+
+</resources>

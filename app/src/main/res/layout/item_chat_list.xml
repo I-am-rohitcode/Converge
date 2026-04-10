@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_surface_card"
+    android:elevation="4dp"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/avatarCard"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@android:color/transparent"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/avatarImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_avatar_placeholder"
+            android:padding="12dp"
+            android:scaleType="centerCrop"
+            app:tint="@color/on_primary" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:textColor="@color/text_primary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/timeText"
+        app:layout_constraintStart_toEndOf="@id/avatarCard"
+        app:layout_constraintTop_toTopOf="@id/avatarCard"
+        tools:text="Aarav Patel" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_hint"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/userNameText"
+        tools:text="2:42 PM" />
+
+    <TextView
+        android:id="@+id/lastMessageText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/avatarCard"
+        app:layout_constraintEnd_toStartOf="@id/unreadBadge"
+        app:layout_constraintStart_toStartOf="@id/userNameText"
+        app:layout_constraintTop_toBottomOf="@id/userNameText"
+        tools:text="That sounds good. I'll send the design pass tonight." />
+
+    <TextView
+        android:id="@+id/unreadBadge"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/bg_btn_primary"
+        android:gravity="center"
+        android:textColor="@color/on_primary"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timeText"
+        tools:text="3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

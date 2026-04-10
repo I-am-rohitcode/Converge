@@ -1,0 +1,390 @@
+--------- beginning of main
+04-08 11:15:24.016 21214 21462 E DecoupleUtils: invokeBooleanMethod: Could not find method isVhtMax8SpatialStreamsSupported
+04-08 11:15:24.017 21214 21462 E DecoupleUtils: invokeBooleanMethod: Could not find method isHe8ssCapableAp
+04-08 11:15:24.027  1911  2505 E system_server: Cannot read thread CPU times for PID 1911
+04-08 11:15:24.051  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+--------- beginning of system
+04-08 11:15:24.055  1911  2505 E WindowManager: makeSurface ActivityRecord{c5849ae u0 com.converge.chatapp/.SplashActivity t2027} windowType 2
+04-08 11:15:24.060  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:24.060  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:24.116  1911  2050 E AlarmManager: Attempt to decrement existing alarm count 0 by 1 for uid 1000
+04-08 11:15:24.139  7677  7677 E onverge.chatap: Unknown bits set in runtime_flags: 0x40000000
+04-08 11:15:24.173  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:24.174  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:24.176  1911  2022 E AthenaService: MemoryGuardAction: handleAppChange
+04-08 11:15:24.385  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:24.385  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:24.390 32063 32159 E BLASTBufferQueue: BLASTBufferItemConsumer::onDisconnect()
+04-08 11:15:24.390  7677  7712 E QT      : [QT]file does not exist
+04-08 11:15:24.392  4123  4375 E BLASTBufferQueue: BLASTBufferItemConsumer::onDisconnect()
+04-08 11:15:24.419  7677  7677 E MultiApp.Impl: OplusMultiAppImpl
+04-08 11:15:24.450  2606  2606 E ModemAciService: CatchException getIcdIntFromStringArray():java.lang.NumberFormatException: s == null
+04-08 11:15:24.450  2606  2606 E ModemAciService: CatchException getIcdIntFromStringArray():java.lang.NumberFormatException: s == null
+04-08 11:15:24.451  2606  2606 E PowerMitigationService: onPowerKpiChanged():SettleObj{ what=LO date=04-08 11:15:24.450 duration=339 screenOnRatio=0 screenOffRatio=0 power=0 current=0 networkType=null dataNetworkType=0 signalStrength=0 aodState=0 softAp=false charge=false simCount=0 defaultPhone=0 apssSleepC=0 apssSleepRatio=0 mpssSleepC=0 mpssSleepRatio=0 vminSleepC=0 vminSleepRatio=0 modemPowermA[]=[0,0,0] sleepRatio=0 idleRatio=100.00 rxRatio=0 5gRxRatio=0 txSumRatio=0 5gTxSumRatio=0 mtkTxRatio[]=[0,0,0,0,0,0,0,0] mtk5gTxRatio[]=[0,0,0,0,0,0,0,0] rrcConn10sC[]=[3, 0] rrcConn20sC[]=[0, 0] rrcConnMore20sC[]=[0, 0] rrcConnC[]=[3, 0] csChangedC[]=[0, 0] psChangedC[]=[0, 0] iRatC[]=[9, 0] cellUpdateC[]=[10, 0] nwSrchC[]=[0, 0] nwSrchRatio[]=[0,0] lteRrcConnRatio[]=[3.83,0] psRegRatio[]=[99.17,0] csRegRatio[]=[99.17,0] psNoRegRatio[]=[0,99.17] csNoRegRatio[]=[0,99.17] sigGrid0Ratio[]=[3.53,0] endcActRatio[]=[0,0] allWakeupC={} appInWakeupC={} appOutWakeupC={} appWakeupRatio={} appTrafficC={} saRrcConn10sC[]=[0, 0] saRrcConn20sC[]=[0, 0] saRrcConnMore20sC[]=[0, 0] saRrcConnC[]=[0, 0] saRrcConnRatio[]=[0,0]}
+04-08 11:15:24.449  1050  1050 E vendor.oplus.hardware.mtkmodemaci@1.0-service: read mtkmodemaci failed!
+04-08 11:15:24.509  7677  7677 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+04-08 11:15:24.554  7677  7677 E onverge.chatap: ofbOpen failed with error=No such file or directory
+04-08 11:15:24.554  7677  7677 E onverge.chatap: sysOpen failed with error=No such file or directory
+04-08 11:15:24.613  1089  1139 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 0: Unsupported (8)
+04-08 11:15:24.621  7677  7731 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+04-08 11:15:24.658  7677  7710 E OpenGLRenderer: fbcNotifyFrameComplete error: undefined symbol: fbcNotifyFrameComplete
+04-08 11:15:24.658  7677  7710 E OpenGLRenderer: fbcNotifyNoRender error: undefined symbol: fbcNotifyNoRender
+04-08 11:15:24.683 24086 24364 E AuthDialogHelper: CheckNotificationCanBeSetSecond: check com.converge.chatapp , Notification master switch on, unable to pop dialog
+04-08 11:15:24.685  7677  7694 E BLASTBufferQueue: [ViewRootImpl[com.converge.chatapp/com.converge.chatapp.SplashActivity]#0](f:0,a:3) isEGL=1, mPendingRelease.size()=1, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+04-08 11:15:24.701  7677  7695 E BLASTBufferQueue: [ViewRootImpl[com.converge.chatapp/com.converge.chatapp.SplashActivity]#0](f:0,a:4) isEGL=1, mPendingRelease.size()=2, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+04-08 11:15:24.702 21214 29832 E BLASTBufferQueue: [ViewRootImpl[Splash Screen com.converge.chatapp]#1233](f:0,a:3) isEGL=1, mPendingRelease.size()=1, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+04-08 11:15:24.717 21214 29832 E BLASTBufferQueue: [ViewRootImpl[Splash Screen com.converge.chatapp]#1233](f:0,a:4) isEGL=1, mPendingRelease.size()=2, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+04-08 11:15:24.775  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:24.776  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:24.944 21214 21596 E BLASTBufferQueue: BLASTBufferItemConsumer::onDisconnect()
+04-08 11:15:26.062  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:26.527  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:26.531  1911  2780 E WindowManager: makeSurface ActivityRecord{8f46af5 u0 com.converge.chatapp/.ChatListActivity t2027} windowType 2
+04-08 11:15:26.557  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:26.557  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+--------- beginning of crash
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: FATAL EXCEPTION: main
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: Process: com.converge.chatapp, PID: 7677
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.converge.chatapp/com.converge.chatapp.ChatListActivity}: android.view.InflateException: Binary XML file line #55 in com.converge.chatapp:layout/activity_chat_list: Binary XML file line #55: You must supply a layout_width attribute.
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3815)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3977)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:109)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2374)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:233)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:344)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8249)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:589)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1071)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: Caused by: android.view.InflateException: Binary XML file line #55 in com.converge.chatapp:layout/activity_chat_list: Binary XML file line #55: You must supply a layout_width attribute.
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: Caused by: java.lang.UnsupportedOperationException: Binary XML file line #55: You must supply a layout_width attribute.
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.content.res.TypedArray.getLayoutDimension(TypedArray.java:831)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.ViewGroup$LayoutParams.setBaseAttributes(ViewGroup.java:8406)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.ViewGroup$MarginLayoutParams.<init>(ViewGroup.java:8604)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at com.google.android.material.chip.ChipGroup$LayoutParams.<init>(ChipGroup.java:101)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at com.google.android.material.chip.ChipGroup.generateLayoutParams(ChipGroup.java:195)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1151)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1110)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1152)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1110)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1152)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1110)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:692)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:542)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:488)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatDelegateImpl.setContentView(AppCompatDelegateImpl.java:751)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatActivity.setContentView(AppCompatActivity.java:193)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at com.converge.chatapp.ChatListActivity.onCreate(ChatListActivity.java:25)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8130)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8110)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1343)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3781)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3977)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:109)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2374)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:233)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:344)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8249)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:589)
+04-08 11:15:26.653  7677  7677 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1071)
+04-08 11:15:26.661  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:26.662  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:26.664  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:26.664  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:26.712  1911  4634 E TheiaManager: [tagL]: calling catchLog()..., focusedPid:4123 pids:[4123]
+04-08 11:15:26.730  1089  1089 E BpTransactionCompletedListener: Failed to transact (-32)
+04-08 11:15:26.764  7759  7759 E d.process.acor: Unknown bits set in runtime_flags: 0x40000000
+04-08 11:15:26.827  4123 15268 E BLASTBufferQueue: [ViewRootImpl[com.android.launcher/com.android.launcher.Launcher]#881](f:0,a:3) isEGL=1, mPendingRelease.size()=1, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+04-08 11:15:26.850  4123  4152 E BLASTBufferQueue: [ViewRootImpl[com.android.launcher/com.android.launcher.Launcher]#881](f:0,a:4) isEGL=1, mPendingRelease.size()=2, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+04-08 11:15:26.863  7781  7781 E weather.servic: Unknown bits set in runtime_flags: 0x40000000
+04-08 11:15:26.939  7781  7781 E WeatherS_AccuUtilsExp: exp -> true
+04-08 11:15:26.949  7759  7759 E OStitch.StitchManager: initIncludeAutoModule e = java.lang.ClassNotFoundException: com.inno.ostitch.generated.ModuleAgentInit com.inno.ostitch.generated.ModuleAgentInit, cause = java.lang.ClassNotFoundException: com.inno.ostitch.generated.ModuleAgentInit
+04-08 11:15:26.983  7781  7797 E WeatherS_WeatherCommonServiceProxy: getLocationCityInfo
+04-08 11:15:27.002  7781  7797 E WeatherS_WeatherCommonServiceProxy: getTimeZoneOfAttendCity
+04-08 11:15:27.003  7781  7797 E WeatherS_WeatherCommonServiceProxy: getOneAttentCityWeatherInfoList
+04-08 11:15:27.007  7781  7797 E WeatherS_WeatherCommonServiceProxy: isTempShowAsCelsius
+04-08 11:15:27.008  7781  7797 E WeatherS_WeatherCommonServiceProxy: getLocationCityDataAndUpdateWeatherInfoIfNeeded  needUpdateWeatherInfo = false
+04-08 11:15:27.163  1911  7374 E OplusTrack-ApkInfoUtil: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.os.Bundle.get(java.lang.String)' on a null object reference
+04-08 11:15:27.164  1911  2022 E AthenaService: MemoryGuardAction: handleAppChange
+04-08 11:15:27.266  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:27.556  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:27.558  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:27.561  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:27.564  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:27.567  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:27.569  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:27.572  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:27.576  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:27.578  6031  6152 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:32.188  1911  1925 E system_server: Cannot read thread CPU times for PID 1911
+04-08 11:15:37.113  3446  3452 E horae   : 0: back:28155,frame:29408,front:27232, 3, +(2529), 1 ,26900,30000,31937,28852
+04-08 11:15:42.112  3446  3451 E horae   : Entering notifyCallback, binder clients size 5
+04-08 11:15:42.113  3446  3451 E horae   : Notify thermal status: 2
+04-08 11:15:42.114  3446  3451 E horae   : Notify thermal status: 2
+04-08 11:15:42.116  3446  3451 E horae   : Notify thermal status: 2
+04-08 11:15:42.116  3446  3451 E horae   : Notify thermal status: 2
+04-08 11:15:42.117  3446  3451 E horae   : Notify thermal status: 2
+04-08 11:15:42.734  2704  2889 E cellularState[0]:  - unhandledMessage: msg.what=4
+04-08 11:15:42.764  7865  7865 E oadcastreceive: Unknown bits set in runtime_flags: 0x40000000
+04-08 11:15:42.784  2682  2682 E m.android.phon: Invalid ID 0x00000000.
+04-08 11:15:42.801  2704  2889 E cellularState[0]:  - unhandledMessage: msg.what=4
+04-08 11:15:42.829  1911  4634 E AppOps  : package com.oplus.internal.telephony not found, can't check for attributionTag null
+04-08 11:15:42.840  1911  4634 E AppOps  : noteOperation
+04-08 11:15:42.840  1911  4634 E AppOps  : java.lang.SecurityException: Specified package com.oplus.internal.telephony under uid 1001 but it is not
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:4797)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.AppOpsService.noteOperationUnchecked(AppOpsService.java:3575)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.AppOpsService.noteOperationImpl(AppOpsService.java:3563)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.AppOpsService.access$4000(AppOpsService.java:223)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.lambda$noteOperation$4(AppOpsService.java:7813)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher$$ExternalSyntheticLambda2.apply(Unknown Source:33)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.policy.AppOpsPolicy.noteOperation(AppOpsPolicy.java:219)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.noteOperation(AppOpsService.java:7811)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.AppOpsService.noteOperation(AppOpsService.java:3547)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:476)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at com.android.server.appop.OplusAppOpsService.onTransact(OplusAppOpsService.java:38)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at android.os.Binder.execTransactInternal(Binder.java:1226)
+04-08 11:15:42.840  1911  4634 E AppOps  : 	at android.os.Binder.execTransact(Binder.java:1163)
+04-08 11:15:42.879  7881  7881 E ttings:tzupdat: Unknown bits set in runtime_flags: 0x40000000
+04-08 11:15:43.027  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:43.050  7910  7910 E oplus.romupdat: Unknown bits set in runtime_flags: 0x40000000
+04-08 11:15:43.118  1609  1621 E VoLTE IMSM: pcscf not support (module/mdagent/volte_imsm_93/src/imsm_handler.c:833)
+04-08 11:15:43.118  1609  1621 E VoLTE IMSM: Can't get pcscf from isim (module/mdagent/volte_imsm_93/src/imsm_handler.c:3440)
+04-08 11:15:43.124  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:43.124  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:43.235   950  1513 E netd    : Error adding route ::/0 -> (null) ccmni1 to table 1003: File exists
+04-08 11:15:43.263  1207  1698 E VT      : [SRV]   [MAP OPERATION] [ID=667] checkNetworkInfRecordExist (table empty)
+04-08 11:15:43.832  1284  1284 E ipsec_policy_mont: xfrm state: 00000204 00000010 00000000
+04-08 11:15:43.832  1284  1284 E ipsec_policy_mont: xfrm state: 00000204 00000010 00000000
+04-08 11:15:43.832  1284  1284 E ipsec_policy_mont: xfrm state: 00000204 00000010 00000000
+04-08 11:15:43.833  1284  1284 E ipsec_policy_mont: xfrm state: 00000204 00000010 00000000
+04-08 11:15:44.028  1062  1062 E ORMS_HAL: open /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable failed(No such file or directory)
+04-08 11:15:44.523  1193  1253 E mnld    : [libfs_mgr]ReadFstabFromFile(): failed to access() DSU booted indicator: Permission denied
+04-08 11:15:44.559  1193  1253 E gps_controlller: mtk_gps_md_status_get: can't get md_status, it set to -1
+04-08 11:15:44.618  2682  2682 E m.android.phon: Invalid ID 0x00000000.
+04-08 11:15:44.874  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:44.874  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:45.025  1287  1331 E agps    : [agps] ERR: [Utility] do_socket_connect_v6  no v6 address
+04-08 11:15:45.358  1287  1331 E MtkAgpsNative: [TLS] conn(0), x509->error = 0x0, SEC_ERROR_NONE
+04-08 11:15:45.612  1089  1140 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 0: Unsupported (8)
+04-08 11:15:45.642  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:45.644  1911  1925 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:45.645  1911  1925 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:45.646  1911  1925 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:45.650  1911  1925 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:45.669  1460  1460 E android.hardware.biometrics.fingerprint@2.1-service: sendFingerprintCmd in_buf=  
+04-08 11:15:45.669  1460  1460 E android.hardware.biometrics.fingerprint@2.1-service: FINGERPRINT_CMD_ID_AUTHENTICATE_TYPE operationId = 0, gid = 0, authtype = 1
+04-08 11:15:45.672  1911  1925 E WindowManager: makeSurface WindowToken{247b012 android.os.BinderProxy@a62a39d} windowType 2009
+04-08 11:15:45.868  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:45.868  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:45.873  1460  1460 E android.hardware.biometrics.fingerprint@2.1-service: sendFingerprintCmd in_buf=  
+04-08 11:15:45.873  1460  1460 E android.hardware.biometrics.fingerprint@2.1-service: FINGERPRINT_CMD_ID_SET_SCREEN_STATE screen_state = 0
+04-08 11:15:45.889  1193  1270 E flp     : mnld_screen_monitor_thread: Screen off
+04-08 11:15:45.914  1911  1957 E system_server: Cannot read thread CPU times for PID 1911
+04-08 11:15:45.981  1911  1967 E BLASTBufferQueue: BLASTBufferItemConsumer::onDisconnect()
+04-08 11:15:46.017 32063 32159 E BLASTBufferQueue: BLASTBufferItemConsumer::onDisconnect()
+04-08 11:15:46.024  4123  4375 E BLASTBufferQueue: BLASTBufferItemConsumer::onDisconnect()
+04-08 11:15:46.075 17720 17854 E bt_btif : system/bt/main/bte_logmsg.cc:195 LogMsg: stop ble scan active_scanners cnts:0
+04-08 11:15:46.168   550   550 E lowmemorykiller: device has enough memory 891808Kib, disable killing
+04-08 11:15:46.203  1013  1029 E mtkpower@impl: [setMode] unknown type
+04-08 11:15:46.269   550   550 E lowmemorykiller: device has enough memory 888944Kib, disable killing
+04-08 11:15:46.370   550   550 E lowmemorykiller: device has enough memory 888272Kib, disable killing
+04-08 11:15:46.439   994   994 E VirtualSensors: ResultFromStatus : Ok
+04-08 11:15:46.469  3446  3452 E horae   : 0: back:28289,frame:27236,front:27807, 2, +(2842), 0 ,26900,31000,31131,30672
+04-08 11:15:46.471   550   550 E lowmemorykiller: device has enough memory 885896Kib, disable killing
+04-08 11:15:46.476  1027  1027 E vendor.oplus.hardware.charger@1.0-service: notifyScreenStatus: 0
+04-08 11:15:46.572   550   550 E lowmemorykiller: device has enough memory 917152Kib, disable killing
+04-08 11:15:46.589  6115  6115 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.593  1911  4634 E SensorService: Required app com.oplus.gesture.server.ScreenOffGestureService, uid 10195, pid 6115
+04-08 11:15:46.596   994   994 E VirtualSensors: ResultFromStatus : Ok
+04-08 11:15:46.598   994   994 E VirtualSensors: ResultFromStatus : Ok
+04-08 11:15:46.630  6994  6994 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.649  6994  6994 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.659  6994  6994 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.670  6994  6994 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.674   550   550 E lowmemorykiller: device has enough memory 947028Kib, disable killing
+04-08 11:15:46.680  6994  6994 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.697  6994  6994 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.726  6994  6994 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.742  6994  6994 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:46.775   550   550 E lowmemorykiller: device has enough memory 946056Kib, disable killing
+04-08 11:15:46.880  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:46.880  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:47.054  6115  6115 E OplusFeatureCache: invalid oplus feature oplus.software.sensor.lux_aod
+04-08 11:15:47.055  6115  6115 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:47.060  1911  4634 E SensorService: Required app com.oplus.gesture.server.ScreenOffGestureService, uid 10195, pid 6115
+04-08 11:15:47.883  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:47.883  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:48.891  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:48.891  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:49.886  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:49.886  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:50.655  1911  2149 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.717   626  8001 E keystore2: keystore2::gc: Error trying to delete blob entry. In process_one_key: Trying to invalidate key.
+04-08 11:15:50.717   626  8001 E keystore2: 
+04-08 11:15:50.717   626  8001 E keystore2: Caused by:
+04-08 11:15:50.717   626  8001 E keystore2:     0: In invalidate key closure: Trying to invalidate key blob.
+04-08 11:15:50.717   626  8001 E keystore2:     1: Error::Km(ErrorCode(-100))
+04-08 11:15:50.814  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.816  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.821  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.821  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.822  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.824  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.837  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.839  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.840  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.842  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.842  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.844  1911  4593 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+04-08 11:15:50.852 21214 21434 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:50.854  1911  4609 E SensorService: Required app com.android.systemui.statusbar.phone.KeyguardLiftController, uid 10187, pid 21214
+04-08 11:15:50.881  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:50.881  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:50.909  1089  3193 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 0: Unsupported (8)
+04-08 11:15:51.008 21214 21596 E BLASTBufferQueue: BLASTBufferItemConsumer::onDisconnect()
+04-08 11:15:51.092  1911  2780 E OplusCustomizeRestrictionManagerService: getMobileDataMode error :s == null
+04-08 11:15:51.110  1911  2780 E OplusCustomizeRestrictionManagerService: getMobileDataMode error :s == null
+04-08 11:15:51.118  1911  2780 E OplusCustomizeRestrictionManagerService: getMobileDataMode error :s == null
+04-08 11:15:51.127  1911  1925 E OplusCustomizeRestrictionManagerService: getMobileDataMode error :s == null
+04-08 11:15:51.136  1911  2780 E OplusCustomizeRestrictionManagerService: getMobileDataMode error :s == null
+04-08 11:15:51.562  1911  2780 E system_server: Cannot read thread CPU times for PID 1911
+04-08 11:15:51.649  1911  4593 E system_server: Cannot read thread CPU times for PID 1911
+04-08 11:15:51.708 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; CpuTime = 2718558 ms; CpuTotalTime = 224262 ms
+04-08 11:15:51.708 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; CpuKernelTime = 645087 ms; CpuTotalKernelTime = 63883 ms
+04-08 11:15:51.708 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; CpuUserTime = 2073471 ms; CpuTotalUserTime = 160379 ms
+04-08 11:15:51.709 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; CpuPower = 96.01674135138889 mAh.; CpuTotalPower = 13.215230489166622 mAh.
+04-08 11:15:51.709 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; AlarmWakeupCount = 12; AlarmTotalWakeupCount = 6
+04-08 11:15:51.709 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; JobCount = 252; JobTime = 443399; JobTotalCount = 49; JobTotalTime = 86407
+04-08 11:15:51.709 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+04-08 11:15:51.709 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; WakeLockTime = 133545 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 57639 ms; WakeLockTotalPower = 0.10407041666666667 mAh.
+04-08 11:15:51.709 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; WifiRxBytes = 35987616259 Bytes; WifiTxBytes = 1708455766 Bytes; WifiRxPackets = 30145541 ; WifiTxPackets = 4277832 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0 
+04-08 11:15:51.710 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; WifiRxPacketsPower = 159.10145568847656 mAh; WifiTxPacketsPower = 22.57744598388672 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 181.6789093017578 mAh
+04-08 11:15:51.710 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; MobileRxBytes = 31406542088 Bytes; MobileTxBytes = 3258196040 Bytes; MobileRxPackets = 27475825 ; MobileTxPackets = 6165720 ; MobileActiveCount = 236 ; MobileActiveTime = 2627476 ; MobileTotalRxBytes = 16462527 Bytes; MobileTotalTxBytes = 2399791 Bytes; MobileTotalRxPackets = 15749 ; MobileTotalTxPackets = 5054 ; MobileTotalActiveCount = 79 ; MobileTotalActiveTime = 1072703 
+04-08 11:15:51.710 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; MobileRxPacketsPower = 21.709293827160494 mAh; MobileTxPacketsPower = 4.8716800000000005 mAh; MobileTotalPower = 26.580973827160495 mAh; MobileTotalRxPacketsPower = 0.012443654320982489 mAh; MobileTotalTxPacketsPower = 0.003993283950618931 mAh; MobileTotalTotalPower = 0.01643693827159609 mAh
+04-08 11:15:51.710 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; GpsTime = 0 ms; GpsTotalTime = 0 ms
+04-08 11:15:51.710 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+04-08 11:15:51.710 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; SensorTime = 0 ms; SensorTotalTime = 0 ms
+04-08 11:15:51.711 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+04-08 11:15:51.711 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; CameraTime = 0 ms; CameraTotalTime = 0 ms
+04-08 11:15:51.711 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+04-08 11:15:51.711 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+04-08 11:15:51.711 24086 24426 E Battery : AppStats: Uid = 10264; pkgName = com.instagram.android; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+04-08 11:15:51.898  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:51.898  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:52.888  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:52.888  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:53.889  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:53.889  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:54.884  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:54.884  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:54.971  8009  8009 E .apphub.vincer: Unknown bits set in runtime_flags: 0x40000000
+04-08 11:15:55.386  8009  8046 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.651  8009  8047 E .apphub.vincer: No package ID 6a found for ID 0x6a0b0013.
+04-08 11:15:55.686  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.686  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.687  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.687  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.687  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.687  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.688  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.688  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.688  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.689  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.689  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.689  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.689  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.690  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.690  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.690  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.690  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.690  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.690  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.690  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.690  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.691  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.691  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.692  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.692  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.692  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.692  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.692  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.693  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.693  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: Settings request failed.
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: java.io.FileNotFoundException: https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/1:292274603232:android:47bceb0094de95b3437c85/settings?instance=a1cf6c0280449540149a14c8ae8835f48ff96e7f&build_version=1008004&display_version=1.8.4&source=1
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:255)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:211)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:30)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at d7.a.b(Unknown Source:108)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at g7.d.then(Unknown Source:107)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at com.google.android.gms.tasks.zzo.run(Unknown Source:12)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at z6.e0$a.a(Unknown Source:2)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at z6.c.run(Unknown Source:5)
+04-08 11:15:55.738  8009  8030 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:1564)
+04-08 11:15:55.739  8009  8034 E Firebase-Installations: Firebase Installations can not communicate with Firebase server APIs due to invalid configuration. Please update your Firebase initialization process and set valid Firebase options (API key, Project ID, Application ID) when initializing Firebase.
+04-08 11:15:55.843  8009  8054 E MultiApp.Impl: OplusMultiAppImpl
+04-08 11:15:55.868  8009  8009 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:55.873  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:55.873  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:55.907  8009  8094 E chromium: [0408/111555.898710:ERROR:android_webview/browser/variations/variations_seed_loader.cc:39] Seed missing signature.
+04-08 11:15:56.000  8105  8105 E libc    : SetHeapTaggingLevel: re-enabling tagging after it was disabled is not supported
+04-08 11:15:56.007  8105  8105 E ocessService0:: Unknown bits set in runtime_flags: 0x40000000
+04-08 11:15:56.205  8009  8104 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:56.215  8009  8104 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:56.218  8009  8104 E Parcel  : Reading a NULL string not supported here.
+04-08 11:15:56.356   550   550 E lowmemorykiller: device has enough memory 916272Kib, disable killing
+04-08 11:15:56.471  3446  3452 E horae   : 0: back:27697,frame:27765,front:26827, 2, +(2694), 0 ,26800,30000,30459,29217
+04-08 11:15:56.557   550   550 E lowmemorykiller: device has enough memory 915568Kib, disable killing
+04-08 11:15:56.764   550   550 E lowmemorykiller: device has enough memory 915620Kib, disable killing
+04-08 11:15:56.884  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:56.884  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:56.965   550   550 E lowmemorykiller: device has enough memory 914320Kib, disable killing
+04-08 11:15:57.066   550   550 E lowmemorykiller: device has enough memory 913988Kib, disable killing
+04-08 11:15:57.167   550   550 E lowmemorykiller: device has enough memory 912532Kib, disable killing
+04-08 11:15:57.874  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:57.874  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:58.888  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:58.888  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:15:59.885  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:15:59.885  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:00.162 21214 21462 E DecoupleUtils: invokeBooleanMethod: Could not find method isVhtMax8SpatialStreamsSupported
+04-08 11:16:00.163 21214 21462 E DecoupleUtils: invokeBooleanMethod: Could not find method isHe8ssCapableAp
+04-08 11:16:00.378  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:00.378  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:00.832  1911  4631 E OplusCustomizeRestrictionManagerService: getMobileDataMode error :s == null
+04-08 11:16:00.884  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:00.884  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:00.971  1911  2179 E OplusNetworkStackManager: callback len = 2
+04-08 11:16:00.971  2704  3584 E OplusNetworkStackManager: callback len = 1
+04-08 11:16:00.972  2682  7202 E OplusNetworkStackManager: callback len = 1
+04-08 11:16:01.383  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:01.383  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:01.886  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:01.886  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:02.886  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:02.886  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:03.887  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:03.887  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:04.832  1911  1928 E GnssVisibilityControl: ProxyAppPackageName field is not set. AppOps service not notified for notification: {proxyAppPackageName: , protocolStack: 0, otherProtocolStackName: , requestor: 3, requestorId: Mediatek Modem, responseType: ACCEPTED_NO_LOCATION_PROVIDED, inEmergencyMode: false, isCachedLocation: false}
+04-08 11:16:04.875  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:04.875  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:04.875  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:04.875  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:04.876  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:04.876  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:04.876  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:04.876  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:04.882  1193  1269 E mnld    : mtk_socket_connect_local: mtk_socket_connect_local() connect() failed reason=[Connection refused]111 for path=[mtk_mnld2debugService]
+04-08 11:16:04.882  1193  1269 E mnld    : Mnld2DebugInterface_mnldUpdateMessageInfo: Mnld2DebugInterface_mnldUpdateMessageInfo() mtk_socket_client_connect() failed
+04-08 11:16:05.477  1911  2179 E OplusNetworkStackManager: callback len = 2
+04-08 11:16:05.478  2704  3584 E OplusNetworkStackManager: callback len = 1
+04-08 11:16:05.478  2682  7202 E OplusNetworkStackManager: callback len = 1

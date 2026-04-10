@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RedIndicator">
+        <item name="android:color">@color/primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
+    </style>
+</resources>
