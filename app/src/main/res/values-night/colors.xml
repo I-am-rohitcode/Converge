@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Same brand accents; surfaces and text tuned for dark UI -->
+    <color name="background">#121018</color>
+    <color name="background_top">#1A1628</color>
+    <color name="background_bottom">#0E0C14</color>
+    <color name="card_background">#1E1B2A</color>
+    <color name="surface_muted">#262336</color>
+    <color name="surface_stroke">#3D3754</color>
+    <color name="divider">#3D3754</color>
+
+    <color name="chat_other_message">#2A263C</color>
+
+    <color name="text_primary">#F4F2FF</color>
+    <color name="text_secondary">#B8B0D6</color>
+    <color name="text_hint">#7A7394</color>
+
+    <color name="black_10">#29FFFFFF</color>
+    <color name="black_16">#3DFFFFFF</color>
+</resources>
