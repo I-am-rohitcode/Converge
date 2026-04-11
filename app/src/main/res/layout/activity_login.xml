@@ -14,11 +14,9 @@
         android:layout_height="220dp"
         android:alpha="0.16"
         android:background="@drawable/bg_avatar_placeholder"
-
-        app:layout_constraintTop_toTopOf="parent"
-
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/headerBlock"
@@ -33,40 +31,44 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <FrameLayout
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="84dp"
             android:layout_height="84dp"
-            android:background="@drawable/bg_surface_card"
-            android:elevation="8dp"
-            android:padding="20dp">
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="6dp"
+            app:strokeColor="@color/surface_stroke"
+            app:strokeWidth="1dp">
 
             <ImageView
                 android:id="@+id/logoImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/cd_converge_logo"
+                android:padding="20dp"
                 android:src="@android:drawable/ic_dialog_email"
                 app:tint="@color/primary" />
-        </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
 
         <TextView
             android:id="@+id/titleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Welcome back"
+            android:text="@string/welcome_back"
+            android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
             android:textColor="@color/text_primary"
-            android:textSize="30sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/subtitleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="12dp"
             android:gravity="center"
-            android:text="Use your phone number to pick up every conversation where you left it."
-            android:textColor="@color/text_secondary"
-            android:textSize="16sp" />
+            android:text="@string/login_subtitle"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:textColor="@color/text_secondary" />
     </LinearLayout>
 
     <LinearLayout
@@ -88,15 +90,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mobile number"
-            android:textColor="@color/text_secondary"
-            android:textSize="14sp" />
+            android:text="@string/label_mobile_number"
+            android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+            android:textColor="@color/text_secondary" />
 
         <LinearLayout
             android:id="@+id/inputNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/bg_input_field"
             android:gravity="center_vertical"
             android:orientation="horizontal"
@@ -107,8 +109,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:text="+91"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                 android:textColor="@color/text_primary"
-                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <View
@@ -123,62 +125,33 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@null"
-                android:hint="Phone Number"
+                android:hint="@string/hint_phone_number"
                 android:inputType="phone"
                 android:paddingVertical="10dp"
                 android:textColor="@color/text_primary"
                 android:textColorHint="@color/text_hint"
                 android:textSize="18sp" />
         </LinearLayout>
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Email ID"-->
-<!--            android:textColor="@color/text_secondary"-->
-<!--            android:textSize="14sp" />-->
-
-<!--        <LinearLayout-->
-<!--            android:id="@+id/inputEmail"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginTop="12dp"-->
-<!--            android:background="@drawable/bg_input_field"-->
-<!--            android:gravity="center_vertical"-->
-<!--            android:orientation="horizontal"-->
-<!--            android:padding="8dp">-->
-
-<!--            <EditText-->
-<!--                android:id="@+id/EmailInput"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_weight="1"-->
-<!--                android:background="@null"-->
-<!--                android:hint="Email ID"-->
-<!--                android:inputType="textEmailAddress"-->
-<!--                android:paddingVertical="10dp"-->
-<!--                android:textColor="@color/text_primary"-->
-<!--                android:textColorHint="@color/text_hint"-->
-<!--                android:textSize="18sp" />-->
-<!--        </LinearLayout>-->
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
-            android:text="We’ll send a one-time code to verify your number. Standard SMS rates may apply."
-            android:textColor="@color/text_secondary"
-            android:textSize="14sp" />
+            android:layout_marginTop="16dp"
+            android:text="@string/login_disclaimer"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="@color/text_secondary" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/continueButton"
             android:layout_width="match_parent"
             android:layout_height="58dp"
-            android:layout_marginTop="28dp"
-            android:background="@drawable/bg_btn_primary"
-            android:text="Continue"
+            android:layout_marginTop="24dp"
+            android:text="@string/continue_label"
             android:textAllCaps="false"
-            android:textColor="@color/on_primary"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="28dp"
+            app:elevation="2dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

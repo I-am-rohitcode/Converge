@@ -16,7 +16,7 @@
         android:background="@drawable/bg_chat_bubble_received"
         android:orientation="vertical"
         android:padding="8dp"
-        android:elevation="10dp"
+        android:elevation="1dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_max="300dp">

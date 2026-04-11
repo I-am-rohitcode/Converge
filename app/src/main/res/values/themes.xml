@@ -1,13 +1,61 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Base.Theme.Converge" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/surface_muted</item>
+        <item name="colorOnPrimaryContainer">@color/primary</item>
+
         <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/surface_muted</item>
+        <item name="colorOnSecondaryContainer">@color/secondary</item>
+
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/surface_muted</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/surface_stroke</item>
+        <item name="colorOutlineVariant">@color/divider</item>
+
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
         <item name="android:windowBackground">@color/background</item>
+
+        <item name="shapeCornerFamily">rounded</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Converge.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Converge.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Converge.Large</item>
     </style>
 
     <style name="Theme.Converge" parent="Base.Theme.Converge" />
+
+    <style name="Theme.Converge.Call" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">@drawable/bg_call_screen</item>
+    </style>
+
+    <style name="ShapeAppearance.Converge.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">14dp</item>
+    </style>
+    <style name="ShapeAppearance.Converge.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="ShapeAppearance.Converge.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Converge.ComposerBar" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">26dp</item>
+        <item name="cornerSizeTopRight">26dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
 </resources>

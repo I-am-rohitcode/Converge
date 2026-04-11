@@ -1,83 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="12dp"
-    android:background="@drawable/bg_surface_card"
-    android:elevation="4dp"
-    android:padding="16dp">
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/card_background"
+    app:cardElevation="0dp"
+    app:rippleColor="@color/black_10"
+    app:shapeAppearanceOverlay="@style/ShapeAppearance.Converge.Medium"
+    app:strokeColor="@color/surface_stroke"
+    app:strokeWidth="1dp">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/avatarCard"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:backgroundTint="@android:color/transparent"
-        app:cardCornerRadius="28dp"
-        app:cardElevation="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/avatarImage"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/bg_avatar_placeholder"
-            android:padding="12dp"
-            android:scaleType="centerCrop"
-            app:tint="@color/on_primary" />
-    </androidx.cardview.widget.CardView>
-
-    <TextView
-        android:id="@+id/userNameText"
-        android:layout_width="0dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:textColor="@color/text_primary"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@id/timeText"
-        app:layout_constraintStart_toEndOf="@id/avatarCard"
-        app:layout_constraintTop_toTopOf="@id/avatarCard"
-        tools:text="Aarav Patel" />
+        android:padding="14dp">
 
-    <TextView
-        android:id="@+id/timeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/text_hint"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/userNameText"
-        tools:text="2:42 PM" />
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/avatarCard"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            app:cardBackgroundColor="@color/surface_muted"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/surface_stroke"
+            app:strokeWidth="1dp">
 
-    <TextView
-        android:id="@+id/lastMessageText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:ellipsize="end"
-        android:maxLines="1"
-        android:textColor="@color/text_secondary"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@id/avatarCard"
-        app:layout_constraintEnd_toStartOf="@id/unreadBadge"
-        app:layout_constraintStart_toStartOf="@id/userNameText"
-        app:layout_constraintTop_toBottomOf="@id/userNameText"
-        tools:text="That sounds good. I'll send the design pass tonight." />
+            <ImageView
+                android:id="@+id/avatarImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="12dp"
+                android:scaleType="centerCrop"
+                app:tint="@color/primary" />
+        </com.google.android.material.card.MaterialCardView>
 
-    <TextView
-        android:id="@+id/unreadBadge"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:background="@drawable/bg_btn_primary"
-        android:gravity="center"
-        android:textColor="@color/on_primary"
-        android:textSize="11sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/timeText"
-        tools:text="3" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/userNameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:textColor="@color/text_primary"
+            app:layout_constraintEnd_toStartOf="@id/timeText"
+            app:layout_constraintStart_toEndOf="@id/avatarCard"
+            app:layout_constraintTop_toTopOf="@id/avatarCard"
+            tools:text="Aarav Patel" />
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+            android:textColor="@color/text_hint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/userNameText"
+            tools:text="2:42 PM" />
+
+        <TextView
+            android:id="@+id/lastMessageText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="@color/text_secondary"
+            app:layout_constraintBottom_toBottomOf="@id/avatarCard"
+            app:layout_constraintEnd_toStartOf="@id/unreadBadge"
+            app:layout_constraintStart_toStartOf="@id/userNameText"
+            app:layout_constraintTop_toBottomOf="@id/userNameText"
+            tools:text="That sounds good. I'll send the design pass tonight." />
+
+        <TextView
+            android:id="@+id/unreadBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_btn_primary"
+            android:gravity="center"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+            android:textColor="@color/on_primary"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/lastMessageText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/lastMessageText"
+            tools:text="3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

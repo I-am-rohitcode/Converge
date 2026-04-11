@@ -1,6 +1,5 @@
 package com.converge.chatapp;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -39,7 +38,6 @@ public class ChatListActivity extends AppCompatActivity {
             v.setPadding(0, 0, 0, systemBars.bottom);
             return insets;
         });
-        getWindow().setStatusBarColor(Color.parseColor("#655AE7"));
         viewPager = findViewById(R.id.viewPager);
         
         viewPager.setAdapter(new FragmentStateAdapter(this) {

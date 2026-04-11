@@ -1,63 +1,33 @@
 package com.converge.chatapp;
 
-import android.os.Bundle;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.view.View;
 
-import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class GroupChatRoomActivity extends AppCompatActivity {
+public class GroupChatRoomActivity extends BaseChatRoomActivity {
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_group_chat_room);
+    protected int contentLayoutResId() {
+        return R.layout.activity_group_chat_room;
+    }
 
-        View composerContainer = findViewById(R.id.composerContainer);
-        RecyclerView recyclerView = findViewById(R.id.messagesRecyclerView);
-        final int composerBottomPadding = composerContainer.getPaddingBottom();
-        final int recyclerBottomPadding = recyclerView.getPaddingBottom();
+    @Override
+    protected String fallbackChatTitle() {
+        return getString(R.string.default_group_title);
+    }
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            Insets imeInsets = insets.getInsets(WindowInsetsCompat.Type.ime());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, 0);
-            composerContainer.setPadding(
-                    composerContainer.getPaddingLeft(),
-                    composerContainer.getPaddingTop(),
-                    composerContainer.getPaddingRight(),
-                    Math.max(systemBars.bottom, imeInsets.bottom) + composerBottomPadding
-            );
-            recyclerView.setPadding(
-                    recyclerView.getPaddingLeft(),
-                    recyclerView.getPaddingTop(),
-                    recyclerView.getPaddingRight(),
-                    recyclerBottomPadding
-            );
-            return insets;
-        });
+    @Override
+    protected void bindHeaderExtras() {
+        TextView statusSubtitle = findViewById(R.id.statusSubtitle);
+        statusSubtitle.setText(getString(R.string.group_participant_count, 12));
+    }
 
-        String title = getIntent().getStringExtra("title");
-        TextView titleView = findViewById(R.id.chatTitle);
-        titleView.setText(title == null ? "Group chat room" : title);
-
-        ImageView backButton = findViewById(R.id.backButton);
-        backButton.setOnClickListener(v -> finish());
-
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        List<MessageItem> messages = buildGroupMessages();
-        recyclerView.setAdapter(new MessageAdapter(messages));
-        recyclerView.scrollToPosition(messages.size() - 1);
+    @Override
+    protected void populateSeedMessages(@NonNull ArrayList<MessageItem> out) {
+        out.addAll(buildGroupMessages());
     }
 
     private List<MessageItem> buildGroupMessages() {
